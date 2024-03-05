@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="shortcut icon" type="imagex/png" href="../img/Login.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/12cb811d2f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="../index.html"><img class="logogenshin" src="../img/Genshin-Impact-Logo-PNG-File 1.png" alt="Logo do jogo Genshin Impact"></a>
+                <ul class="home-login">
+                    <a href="../index.html">Home</a>
+                    <a href="./pages/login.html">Login</a>
+                </ul>
+        </nav>
+        <div class="botaovoltar" >
+            <a class="voltar" href="../index.html"><img class="imgvoltar" src="../img/Back.png" alt="seta voltar">Voltar</a>
+        </div>
+    </header>
+
+    <main class="container-login">
+    
+        
+        <div class="login" >
+            <h1 class="nomelogin">Login</h1>
+
+            <form class="form-login" action="">
+                <label  for="user" ><i class="fa-solid fa-user" style="color: #ea912e;"></i>Usuário</label>
+                <input type="text" id="user" required placeholder="Digite seu nome de usuário">
+                <label for="password"><i class="fa-solid fa-lock" style="color: #ea912e;"></i>Senha</label>
+                <input type="password" id="password" required placeholder="Digite sua senha">
+            </form>
+            <div class="botao">
+                <button id="btn-login" class="btn"><i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i>Entrar</button>
+    
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-login">
+        <p class="copy">&copy;Todos os direitos reservados</p>
+    </footer>
+
+
+    <script src="../js/login.js"></script>
+</body>
+</html>

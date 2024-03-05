@@ -1,0 +1,254 @@
+:root {
+    --corlaranja: #EA913E;
+    --corbackground: #262A2D;
+    --corbrancogelo: #F1F1F1;
+    --branco: #fff;
+}
+
+* {
+    font-family: 'League Spartan', sans-serif;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--corbackground);
+}
+
+.logogenshin {
+    width: 135px;
+    height: 65px;
+    object-fit: cover;
+    margin-left: 184px;
+    align-self: center;
+}
+
+.navbar{
+    display: flex;
+    height: 112px;
+    width: 100%;
+    max-width: 1920px;
+    min-width: min-content; 
+    background-color: var(--corlaranja);
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul a {
+    color: var(--branco);
+}
+
+
+.home-login {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--branco);
+    display: flex;
+    margin-left: 192px;
+    gap: 104px;
+    max-width: 1200px;
+    right: 192px;
+}
+
+.titulodohome {
+    display: flex;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    justify-content: center;
+    color: var(--branco);
+    margin-top: 69px;
+}
+
+.container-main {
+    min-width: 320px;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.personagem-container{
+    margin-top: 4.25rem;
+    color: var(--branco);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.personagem-name {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.personagem .personagem-caixa{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 6.5rem;
+    position: relative;
+}
+
+.container{
+    cursor: pointer;
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+
+ .img-box {
+    width: 272px;
+    height: 264px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* login css */
+
+.container-login{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.botaovoltar {
+    margin-left: 5.25rem;
+    margin-top: 4.5rem;
+   
+   
+}
+
+.voltar{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--corlaranja);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.login {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomelogin {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--branco);
+}
+
+.form-login {
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+
+
+label {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--branco);
+    margin: 0 20px;
+}
+input {
+    font-size: 1.5rem;
+    font-weight: 100;
+    text-align: start;
+    height: 3.5rem;
+    width: 38rem;
+    outline: none;
+    border-radius: 0.75rem;
+    padding: 20px 30px;
+    border: none;
+}
+
+.btn{
+    margin: 2.25rem;
+    color: var(--branco);
+    font-size: 2rem;
+    font-weight: 700;
+    width: 14rem;
+    height: 3.5rem;
+    border-radius: 8rem;
+    background-color: var(--corlaranja);
+    border: none
+}
+
+/* person-pag */
+
+.personagem-info {
+    justify-content: center;
+    display: flex;
+    text-align: start;
+    
+}
+
+.personagem-img {
+    align-items: center;
+    width: 425px;
+    height: 625px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.personagem-dados {
+    align-items: start;
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 5.25rem;
+}
+
+.personagem-dados span {
+    gap: 2.25rem;
+    font-size: 2.25rem;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+}
+
+.personagem-dados .nome {
+    font-weight: 800;
+    font-size: 4.25rem;
+}
+
+footer {
+    width: auto;
+    height: 2rem;
+    background-color: var(--corlaranja);
+    color: var(--branco);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 5.5rem;
+}
+
+.footer-login {
+    margin-top: 19rem;
+}
+
+/* responsividade */
+
+@media screen and (max-width: 600px) {
+        .logogenshin {
+            margin-left: 20px;
+            width: 70%;
+            height: 70%;
+        }
+
+        .personagem-container {
+            width: 50%;
+            height: 50%;
+        }
+}
